@@ -1,0 +1,26 @@
+{
+  "name": "folio-backend",
+  "version": "1.0.0",
+  "description": "REST API for the Folio online bookstore (Node.js, Express, MongoDB, JWT, OAuth2, rate limiting)",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/seed/seed.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.4",
+    "jose": "^6.2.17",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.12.1"
+  }
+}
